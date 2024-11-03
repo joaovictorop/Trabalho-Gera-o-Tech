@@ -1,0 +1,34 @@
+.produto-card-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
+    margin-top: 20px; 
+}
+
+.produto-square {
+    width: 60%; 
+    height: 200px; 
+    overflow: hidden; 
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 90px;
+}
+
+.produto-square img {
+    width: 100%; 
+    height: auto; 
+}
+.discount-balao {
+    position: absolute;  
+    top: 10px; 
+    left: 10px; 
+    background-color: #F0E68C; 
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: bold; 
+    margin-top: 910px;
+    margin-left: 110px;
+}

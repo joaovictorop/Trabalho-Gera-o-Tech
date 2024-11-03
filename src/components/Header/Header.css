@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .site-title {
+    font-size: 24px;
+    color: #C92071;
+    margin-left: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #C92071;
+  }
+  
+  .cart-icon {
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    margin-left: 20px;
+    padding: 5px;
+  }
+  

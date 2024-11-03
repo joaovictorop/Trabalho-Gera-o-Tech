@@ -1,0 +1,23 @@
+.product-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    margin-top: 20px; 
+}
+
+.product-square {
+    width: 60%; 
+    height: 200px;
+    overflow: hidden; 
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+}
+
+.product-square img {
+    width: 100%;
+    height: auto; 
+}
+

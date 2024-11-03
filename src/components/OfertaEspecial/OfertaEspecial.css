@@ -1,0 +1,44 @@
+.oferta-especial {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left; 
+    margin: 70px auto; 
+    max-width: 800px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    align-items: center;
+  }
+  
+  .oferta-image {
+    max-width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+  }
+  
+  .oferta-text {
+    flex: 1; 
+  }
+  
+  h2 {
+    margin: 0 0 10px; 
+  }
+  
+  p {
+    margin: 0; 
+  }
+  
+  .btn-ver-oferta {
+    margin-top: 15px; 
+    background-color: #C92071; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .btn-ver-oferta:hover {
+    background-color: #C92071; 
+  }
+  
