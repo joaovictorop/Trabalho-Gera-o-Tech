@@ -79,7 +79,7 @@ const FilterGroup = () => {
         <div key={index} style={{ padding: '8px 0', display: 'flex', alignItems: 'center' }}>
           <input
             type="radio"
-            name="estado" // Agrupa os botões de rádio
+            name="estado"
             style={{
               width: '15px',
               height: '15px',

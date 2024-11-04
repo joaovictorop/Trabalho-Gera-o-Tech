@@ -30,7 +30,7 @@ const ProdutoCard = () => {
         </Link>
       </div>
       
-      <div className="produto-card-grid"> {/* Usando a nova classe CSS */}
+      <div className="produto-card-grid"> {}
         {Array(6).fill().map((_, index) => (
           <Link
             to={`/product/${index + 1}`}
@@ -38,7 +38,7 @@ const ProdutoCard = () => {
             className="product-item"
             style={{ textAlign: 'center', textDecoration: 'none', color: 'inherit' }}
           >
-            <div className="produto-square"> {/* Usando a nova classe CSS */}
+            <div className="produto-square"> {}
               {index < 2 && (
                 <div className="discount-balao">30% OFF</div>
               )}

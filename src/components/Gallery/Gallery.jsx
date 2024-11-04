@@ -1,6 +1,5 @@
-// src/components/Gallery.js
 import React, { useState } from 'react';
-import './Gallery.css'; // Para estilos, se necessário
+import './Gallery.css';
 
 const Gallery = ({ className, width, height, radius, showThumbs, images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
